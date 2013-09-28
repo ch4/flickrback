@@ -1,0 +1,14 @@
+{
+	"manifest_version": 1,
+	"name": "Bookmark to PDF/PNG",
+	"version": "1.0",
+	"description": "Automatically save a copy of your bookmark as PDF and/or PNG and back it up to a git repo.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["main.js"],
+			"run_at": "document_end"
+		}
+	]
+}
