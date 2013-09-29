@@ -1,18 +1,7 @@
-// var canvas = document.documentElement;
-// var dataUrl = canvas.toDataURL();
-// alert(dataUrl);
-
-var specialElementHandlers = {
-	'#editor': function(element, renderer){
-		return true;
-	}
-};
 
 html2canvas(document.body, {
   onrendered: function(canvas) {
-    // document.body.appendChild(canvas);
 	var dataUrl = canvas.toDataURL();
-	//alert(dataUrl);
 	
 	//Create temporary div to insert the canvas element for printing to pdf
 	// var div = document.createElement("div");
@@ -38,9 +27,9 @@ html2canvas(document.body, {
 	
 	//doc.save('screenshot.pdf');
 	
-	canvas.toBlob(function(blob) {
-		saveAs(blob, "screenshot.png");
-	});
+	//canvas.toBlob(function(blob) {
+	//	saveAs(blob, "screenshot.png");
+	//});
 	
 	var oauth, requestToken;
 	var uploadParams = {
@@ -79,8 +68,8 @@ html2canvas(document.body, {
 			// }
 		// );               
 		oauth.fetchAccessToken(function (data2) {
-			alert(data2);
-			flickrUpload.post(uploadParams, 'http://api.flickr.com/services/upload', binary);
+			//alert(data2);
+			//flickrUpload.post(uploadParams, 'http://api.flickr.com/services/upload', binary);
 		}, function (data2) {
 		});
     });
