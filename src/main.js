@@ -38,9 +38,9 @@ html2canvas(document.body, {
 	
 	//doc.save('screenshot.pdf');
 	
-	// canvas.toBlob(function(blob) {
-		// saveAs(blob, "screenshot.png");
-	// });
+	canvas.toBlob(function(blob) {
+		saveAs(blob, "screenshot.png");
+	});
 	
 	var oauth, requestToken;
 	var uploadParams = {
