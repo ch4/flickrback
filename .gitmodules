@@ -4,3 +4,9 @@
 [submodule "src/js/html2canvas"]
 	path = src/js/html2canvas
 	url = git@github.com:niklasvh/html2canvas.git
+[submodule "src/js/FileSaver.js"]
+	path = src/js/FileSaver.js
+	url = git@github.com:eligrey/FileSaver.js.git
+[submodule "src/js/canvas-toBlob.js"]
+	path = src/js/canvas-toBlob.js
+	url = git@github.com:eligrey/canvas-toBlob.js.git

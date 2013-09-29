@@ -20,7 +20,7 @@ html2canvas(document.body, {
 	div.style.height = "100px";
 	div.style.background = "red";
 	div.style.color = "white";
-	div.setAttribute('class','gitbackmachine');
+	div.setAttribute('id','gitbackmachine');
 	div.appendChild(canvas);
 	document.body.appendChild(div);
 	
@@ -30,12 +30,17 @@ html2canvas(document.body, {
 	// doc.text(35, 25, "test");
 	//doc.addImage(dataUrl, 'JPEG', 15, 40, 180, 160);
 	
-	doc.fromHTML($('.gitbackmachine').get(0), 15, 15, {
-	'width': 170, 
-	'elementHandlers': specialElementHandlers
-	});
+	// doc.fromHTML($('canvas').get(0), 15, 15, {
+	// 'width': 170, 
+	// 'elementHandlers': specialElementHandlers
+	// });
 	
-	doc.save('screenshot.pdf');
+	
+	//doc.save('screenshot.pdf');
+	
+	// canvas.toBlob(function(blob) {
+		// saveAs(blob, "screenshot.png");
+	// });
   }
 });
 

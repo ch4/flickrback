@@ -7,7 +7,7 @@
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["js/jquery-2.0.3.min.js","js/html2canvas/build/html2canvas.min.js","js/jsPDF/jspdf.js","js/jsPDF/jspdf.plugin.addimage.js","js/jsPDF/jspdf.plugin.from_html.js","main.js"],
+			"js": ["js/jquery-2.0.3.min.js","js/canvas-toBlob.js/canvas-toBlob.js","js/FileSaver.js/FileSaver.js","js/html2canvas/build/html2canvas.min.js","js/jsPDF/jspdf.js","js/jsPDF/jspdf.plugin.addimage.js","js/jsPDF/jspdf.plugin.from_html.js","main.js"],
 			"run_at": "document_end"
 		}
 	],
