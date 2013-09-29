@@ -12,5 +12,14 @@
 		}
 	],
 	"web_accessible_resources": ["js/jquery-2.0.3.min.map"] ,
-	"permissions":["tabs","<all_urls>"]
+	"permissions":["tabs","<all_urls>"],
+	"plugins": [ {
+		"path": "plugin/screen_capture.dll"
+	  }, {
+		"path": "plugin/screen_capture.so"
+	  }, {
+		"path": "plugin/screen_capture_64.so"
+	  }, {
+		"path": "plugin/screen_capture.plugin"
+	  } ]
 }
