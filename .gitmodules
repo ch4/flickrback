@@ -13,3 +13,6 @@
 [submodule "src/js/flickrUpload"]
 	path = src/js/flickrUpload
 	url = git@github.com:shoheik/flickrUpload.git
+[submodule "src/js/jsOAuth"]
+	path = src/js/jsOAuth
+	url = git@github.com:bytespider/jsOAuth.git

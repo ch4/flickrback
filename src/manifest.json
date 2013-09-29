@@ -7,11 +7,11 @@
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["js/jquery-2.0.3.min.js","js/canvas-toBlob.js/canvas-toBlob.js","js/FileSaver.js/FileSaver.js","js/html2canvas/build/html2canvas.min.js","js/jsPDF/jspdf.js","js/jsPDF/jspdf.plugin.addimage.js","js/jsPDF/jspdf.plugin.from_html.js","js/flickrUpload/flickrUpload.js","main.js"],
+			"js": ["keys.js","js/jquery-2.0.3.min.js","js/jsOAuth/dist/jsOAuth-1.3.7.js","js/canvas-toBlob.js/canvas-toBlob.js","js/FileSaver.js/FileSaver.js","js/html2canvas/build/html2canvas.min.js","js/jsPDF/jspdf.js","js/jsPDF/jspdf.plugin.addimage.js","js/jsPDF/jspdf.plugin.from_html.js","js/flickrUpload/flickrUpload.js","main.js"],
 			"run_at": "document_end"
 		}
 	],
-	"web_accessible_resources": ["js/jquery-2.0.3.min.map"] ,
+	"web_accessible_resources": ["js/jquery-2.0.3.min.map","js/jsOAuth/dist/jsOAuth-1.3.7.min.js"] ,
 	"permissions":["tabs","<all_urls>","bookmarks"],
 	"plugins": [ {
 		"path": "plugin/screen_capture.dll"

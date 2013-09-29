@@ -12,3 +12,11 @@ var params = {
     tags: "tags1",
     title: "title1"
 };
+
+var options = {
+        enablePrivilege: true,
+        consumerKey: 'ccaae37814ad644fab620d05b8def088',
+        consumerSecret: '49eab6675ca75e78',
+		callbackUrl: "",
+		accessTokenUrl: "http://www.flickr.com/services/oauth/access_token"
+    };
