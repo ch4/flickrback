@@ -15,17 +15,17 @@ html2canvas(document.body, {
 	//alert(dataUrl);
 	
 	//Create temporary div to insert the canvas element for printing to pdf
-	var div = document.createElement("div");
-	div.style.width = "100px";
-	div.style.height = "100px";
-	div.style.background = "red";
-	div.style.color = "white";
-	div.setAttribute('id','gitbackmachine');
-	div.appendChild(canvas);
-	document.body.appendChild(div);
+	// var div = document.createElement("div");
+	// div.style.width = "100px";
+	// div.style.height = "100px";
+	// div.style.background = "red";
+	// div.style.color = "white";
+	// div.setAttribute('id','gitbackmachine');
+	// div.appendChild(canvas);
+	//document.body.appendChild(div);
 	
 	
-	var doc = new jsPDF();
+	//var doc = new jsPDF();
 	// doc.setFontSize(40);
 	// doc.text(35, 25, "test");
 	//doc.addImage(dataUrl, 'JPEG', 15, 40, 180, 160);
@@ -38,9 +38,9 @@ html2canvas(document.body, {
 	
 	//doc.save('screenshot.pdf');
 	
-	// canvas.toBlob(function(blob) {
-		// saveAs(blob, "screenshot.png");
-	// });
+	canvas.toBlob(function(blob) {
+		saveAs(blob, "screenshot.png");
+	});
   }
 });
 

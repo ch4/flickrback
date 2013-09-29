@@ -10,3 +10,6 @@
 [submodule "src/js/canvas-toBlob.js"]
 	path = src/js/canvas-toBlob.js
 	url = git@github.com:eligrey/canvas-toBlob.js.git
+[submodule "src/js/flickrUpload"]
+	path = src/js/flickrUpload
+	url = git@github.com:shoheik/flickrUpload.git
