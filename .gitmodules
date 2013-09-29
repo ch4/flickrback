@@ -1,3 +1,6 @@
 [submodule "src/js/jsPDF"]
 	path = src/js/jsPDF
 	url = git@github.com:MrRio/jsPDF.git
+[submodule "src/js/html2canvas"]
+	path = src/js/html2canvas
+	url = git@github.com:niklasvh/html2canvas.git

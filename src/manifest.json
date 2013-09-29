@@ -7,7 +7,7 @@
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["main.js"],
+			"js": ["js/html2canvas/build/html2canvas.min.js","js/jsPDF/jspdf.js","js/jsPDF/jspdf.plugin.addimage.js","js/jsPDF/jspdf.plugin.from_html.js","main.js"],
 			"run_at": "document_end"
 		}
 	]
