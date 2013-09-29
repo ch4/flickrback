@@ -1,4 +1,8 @@
-chrome_bookmark_to_pdf_png
+The Flickrback Machine
 ==========================
 
-Save a copy of your bookmark as PDF and/or PNG and back it up to a git repo
+Save a copy of your bookmark as a PNG and back it up to a flickr 
+
+Future additions:
+--Sync with git repo
+--Save as PDF
